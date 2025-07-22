@@ -16,7 +16,7 @@ export function SideBar({ isOpen, onClose }) {
       {/* Sidebar Panel */}
       <motion.div
         initial={{ x: '-100%' }}
-        animate={{ x: isOpen ? 0 : '-120%' }}
+        animate={{ x: isOpen ? 0 : '-150%' }}
         exit={{ x: '-100%' }}
         transition={{ type: 'spring', stiffness: 300, damping: 30 }}
         className="sideBar"

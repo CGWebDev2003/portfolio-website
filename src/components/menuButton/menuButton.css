@@ -7,9 +7,16 @@
     border: none;
     background-color: var(--primary);
     z-index: 100000000;
+    display: none;
 }
 
 .menuButton i {
     font-size: 2rem;   
     color: var(--accent); 
+}
+
+@media screen and (max-width: 900px) {
+    .menuButton {
+        display: block;
+    }   
 }

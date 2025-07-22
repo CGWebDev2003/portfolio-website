@@ -6,6 +6,7 @@
     background-color: var(--primary);
     z-index: 10000000 !important;
     box-shadow: -10px 0 0 var(--accent-half-transparent);
+    display: none;
 }
 
 .sideBarContent {
@@ -20,4 +21,10 @@
     text-decoration: none;
     color: white;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .sideBar {
+        display: block;
+    }   
 }
