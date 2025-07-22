@@ -8,7 +8,7 @@ export default function Header() {
                 <a href="/" className="logo" aria-label="Gehe zur Homepage">
                     <img src="/cg_signature_black.webp" className="logoImage" alt="Colin Grahm Signatur Logo" />
                 </a>
-                <nav>
+                <nav className="headerNavigation">
                     <a className="headerNavLink" href="/" aria-label="Gehe zu Home-Seite">Home</a>
                 </nav>
                 <div className="headerButtonBox">
@@ -19,7 +19,7 @@ export default function Header() {
                         <i className="bi bi-linkedin"></i>
                     </a>
                     <a className="headerSocialButton" target="_blank" href="https://github.com/CGWebDev2003" aria-label="Gehe zu Colin Grahm's Git Hub" title="GitHub">
-                        <i class="bi bi-github"></i>
+                        <i className="bi bi-github"></i>
                     </a>
                 </div>
             </div>

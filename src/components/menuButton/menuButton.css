@@ -1,0 +1,15 @@
+.menuButton {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: none;
+    background-color: var(--primary);
+    z-index: 100000000;
+}
+
+.menuButton i {
+    font-size: 2rem;   
+    color: var(--accent); 
+}

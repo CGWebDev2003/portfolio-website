@@ -1,0 +1,23 @@
+.sideBar {
+    position: absolute !important;
+    height: 100vh !important;
+    width: 22rem;
+    right: 0;
+    background-color: var(--primary);
+    z-index: 10000000 !important;
+    box-shadow: -10px 0 0 var(--accent-half-transparent);
+}
+
+.sideBarContent {
+    padding: 2rem;
+}
+
+.sideBarTitle {
+    color: var(--accent);
+}
+
+.sideBarNavLink {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}

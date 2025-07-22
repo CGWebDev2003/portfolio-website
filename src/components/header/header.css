@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--bg-light);
-    z-index: 1000000000000;
+    z-index: 1000000;
     box-shadow: -2px 2px 35px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,6 +27,11 @@
     height: 100%;
 }
 
+.headerNavigation {
+    display: flex;
+    gap: 1rem;
+}
+
 .headerNavLink {
     font-size: 18px;
     color: #121212;
@@ -42,4 +47,10 @@
 .headerSocialButton {
     font-size: 20px;
     color: var(--primary);
+}
+
+@media screen and (max-width: 900px) {
+    .headerNavigation {
+        display: none !important;
+    }
 }
