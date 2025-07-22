@@ -5,7 +5,7 @@
   --primary: #081534;
   --primary-dark: hsl(222, 73%, 8%);
 
-  --accent: #FFD700;
+  --accent: #D2A300;
 
   --bg: #F7F7F7;
   --bg-light: #FFFFFF;
@@ -23,4 +23,16 @@
 body {
   background-color: var(--bg);
   font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  color: var(--primary-dark);
+}
+
+.subtitle {
+  color: var(--primary);
+}
+
+a {
+  color: var(--accent);
 }
