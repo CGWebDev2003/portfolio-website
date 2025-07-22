@@ -3,6 +3,7 @@
 :root {
   /* Set Colors */
   --primary: #081534;
+  --primary-dark: hsl(222, 73%, 8%);
 
   --accent: #FFD700;
 
