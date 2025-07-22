@@ -1,0 +1,21 @@
+.impressumBox {
+    background-color: var(--bg-light);
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.grahmWappen {
+    width: 15rem;
+}
+
+.adress, .contact {
+    text-align: center;
+}
+
+.cgName {
+    font-weight: 900;
+    color: var(--primary);
+}
