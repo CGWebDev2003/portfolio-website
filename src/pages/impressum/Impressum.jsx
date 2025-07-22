@@ -3,7 +3,7 @@ import "./impressum.css";
 export default function ImpressumPage() {
     return(
         <div className="page impressumPage">
-            <div className="pageContent">
+            <div className="pageContent impressumContent">
                 <div className="impressumBox">
                     <h1 className="title">Impressum</h1>
                     <h2 className="subtitle">Angaben gemäß § 5 TMG:</h2>

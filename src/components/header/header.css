@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     background-color: var(--bg-light);
+    z-index: 1000000000000;
+    box-shadow: -2px 2px 35px rgba(0, 0, 0, 0.1);
 }
 
 .headerContent {

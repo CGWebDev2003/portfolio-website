@@ -23,6 +23,9 @@
 body {
   background-color: var(--bg);
   font-family: 'Poppins', sans-serif;
+  width: 100vw !important;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .title {
@@ -31,6 +34,8 @@ body {
 
 .subtitle {
   color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 a {

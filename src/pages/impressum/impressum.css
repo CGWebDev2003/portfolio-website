@@ -1,10 +1,19 @@
+.impressumContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .impressumBox {
     background-color: var(--bg-light);
     padding: 3rem 3rem;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+    margin-top: 8rem;
+    box-shadow: -2px 2px 35px rgba(0, 0, 0, 0.1);
 }
 
 .grahmWappen {
