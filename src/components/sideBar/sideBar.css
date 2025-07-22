@@ -1,5 +1,5 @@
 .sideBar {
-    position: absolute !important;
+    position: fixed !important;
     height: 100vh !important;
     width: 22rem;
     right: 0;
