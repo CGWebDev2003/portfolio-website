@@ -1,4 +1,14 @@
+:root {
+  --primary: #081534;
 
+  --accent: #FFD700;
+
+  --bg: #F7F7F7;
+  --bg-light: #FFFFFF;
+  --bg-contrast: #EDEDED;
+
+
+}
 
 * {
   margin: 0;
