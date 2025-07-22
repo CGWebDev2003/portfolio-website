@@ -1,4 +1,4 @@
-
+@import url("./fonts.css");
 
 :root {
   /* Set Colors */
@@ -21,4 +21,5 @@
 
 body {
   background-color: var(--bg);
+  font-family: 'Poppins', sans-serif;
 }

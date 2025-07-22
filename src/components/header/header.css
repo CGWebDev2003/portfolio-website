@@ -25,6 +25,13 @@
     height: 100%;
 }
 
+.headerNavLink {
+    font-size: 18px;
+    color: #121212;
+    text-decoration: none;
+    padding: 1rem;
+}
+
 .headerButtonBox {
     display: flex;
     gap: .5rem;
