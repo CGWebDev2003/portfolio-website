@@ -1,7 +1,7 @@
 .footer {
     width: 100vw;
     height: auto;
-    min-height: 25rem;
+    min-height: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,12 +10,27 @@
 }
 
 .footerContent {
-    height: calc(100% - 6rem);
+    min-height: 10rem;
+    height: auto;
     width: calc(100% - 4rem);
     max-width: var(--max-content-width);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.footerCol {
+    text-align: center;
+}
+
+.footerColTitle {
+    font-size: 1.5rem;
+    color: var(--accent);
+}
+
+.footerLink {
+    color: white;
+    text-decoration: none;
 }
 
 .flowefyBanner {
@@ -37,3 +52,4 @@
     color: #8F08FF;
     text-decoration: none;
 }
+
